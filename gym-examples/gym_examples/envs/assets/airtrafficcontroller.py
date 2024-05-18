@@ -21,10 +21,10 @@ from shapely import Point
 import shapely
 from geopandas import GeoSeries
 from typing import List, Dict
-from airspace import Airspace
-from vertiport import Vertiport
-from uav import UAV
-from collision_controller import Collision_controller
+from assets.airspace import Airspace
+from assets.vertiport import Vertiport
+from assets.uav import UAV
+from assets.collision_controller import Collision_controller
 import copy
 #from autonomous_uav import Autonomous_UAV
 
